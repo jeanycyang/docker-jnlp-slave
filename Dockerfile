@@ -13,6 +13,7 @@ RUN apk --update add --no-cache \
   openjdk8-jre-base \
   wget curl git jq bash zip \
   docker \
+  gettext \
 # workaround "You are using pip version 8.1.1, however version 9.0.1 is available."
 && pip install --upgrade pip setuptools awscli \
 # Add normal user with passwordless sudo
